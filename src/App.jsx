@@ -552,9 +552,9 @@ const Intel=({T})=>{
 // ─── CONTACT ──────────────────────────────────────────────────────────────────
 const LKS=[
   {l:"EMAIL",   v:"Rayhan.vinw@gmail.com",            h:"mailto:Rayhan.vinw@gmail.com"},
-  {l:"GITHUB",  v:"github.com/raylearningcode",    h:"#"},
+  {l:"GITHUB",  v:"github.com/raylearningcode",    h:"github.com/raylearningcode"},
   {l:"LINKEDIN",v:"linkedin.com/in/your-profile",h:"#"},
-  {l:"HTB",     v:"https://profile.hackthebox.com/profile/019e5f20-7b2b-729d-ba67-8c0085aef0e6",    h:"#"},
+  {l:"HTB",     v:"https://app.hackthebox.com/raylearningcode",    h:"https://profile.hackthebox.com/profile/019e5f20-7b2b-729d-ba67-8c0085aef0e6"},
 ];
 const Contact=({T})=>{
   const[ref,fade]=useScrollFade();
