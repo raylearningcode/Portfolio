@@ -143,7 +143,7 @@ const Navbar=({active,onNav,dark,toggleDark,T,onCmd})=>{
       borderBottom:solid?`1px solid ${T.border}`:"none",transition:"all 0.3s ease",
       fontFamily:"'JetBrains Mono','Courier New',monospace"}}>
       <button onClick={()=>close("INIT")} style={{background:"none",border:"none",cursor:"pointer",padding:0}}>
-        <span style={{color:T.green,fontSize:"0.78rem",fontWeight:700,fontFamily:"inherit"}}>rafi</span>
+        <span style={{color:T.green,fontSize:"0.78rem",fontWeight:700,fontFamily:"inherit"}}>Rayhan</span>
         <span style={{color:T.textDim,fontSize:"0.78rem",fontFamily:"inherit"}}>@sec</span>
         <span style={{color:T.accent,fontSize:"0.78rem",fontFamily:"inherit"}}>:~$</span>
       </button>
@@ -214,7 +214,7 @@ const Hero=({onNav,T})=>{
           </div>
           <div style={{...f1,marginBottom:"0.65rem"}}>
             <h1 style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"clamp(2.2rem,6vw,4.6rem)",fontWeight:800,color:T.text,lineHeight:1.04,margin:0}}>
-              Rafi<span style={{color:T.accent}}>.</span>
+              Rayhan<span style={{color:T.accent}}>.</span>
             </h1>
           </div>
           <div style={{...f2,marginBottom:"1.6rem"}}>
@@ -253,7 +253,7 @@ const Hero=({onNav,T})=>{
           <div style={{width:"192px",height:"192px",borderRadius:"20px",overflow:"hidden",flexShrink:0,border:`2px solid ${T.accent}28`,boxShadow:`0 0 0 8px ${T.accent}06,${T.shadow}`,background:T.isDark?"rgba(20,26,50,0.9)":"rgba(200,215,240,0.5)",display:"flex",alignItems:"center",justifyContent:"center",position:"relative",transition:"box-shadow 0.3s"}}
             onMouseEnter={e=>e.currentTarget.style.boxShadow=`0 0 0 8px ${T.accent}12, 0 28px 70px rgba(0,0,0,0.6)`}
             onMouseLeave={e=>e.currentTarget.style.boxShadow=`0 0 0 8px ${T.accent}06,${T.shadow}`}>
-            {PHOTO_URL?<img src={PHOTO_URL} alt="Rafi" style={{width:"100%",height:"100%",objectFit:"cover"}}/>
+            {PHOTO_URL?<img src={PHOTO_URL} alt="Rayhan" style={{width:"100%",height:"100%",objectFit:"cover"}}/>
               :<div style={{textAlign:"center",padding:"1rem"}}>
                 <div style={{width:"72px",height:"72px",borderRadius:"50%",background:`linear-gradient(135deg,${T.accent}30,${T.green}20)`,margin:"0 auto 0.7rem",display:"flex",alignItems:"center",justifyContent:"center",border:`1px solid ${T.accent}30`,fontSize:"1.6rem"}}>👤</div>
                 <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"0.5rem",color:T.textDim,letterSpacing:"0.1em"}}>YOUR PHOTO</div>
@@ -331,7 +331,7 @@ const About=({T})=>{
               Student. Builder.<br/><span style={{color:T.accent}}>Future Security</span> Engineer.
             </h2>
             <p style={{fontFamily:"Inter,sans-serif",fontSize:"0.88rem",color:T.textMid,lineHeight:1.9,marginBottom:"1rem"}}>
-              I'm <strong style={{color:T.text}}>Rafi</strong> — a CS student in Taiwan from Indonesia, focused on <strong style={{color:T.accent}}>cybersecurity, Python automation, and full-stack development</strong>. I'm building a portfolio around safe lab practice, CTF documentation, and small tools that explain how systems work.
+              I'm <strong style={{color:T.text}}>Rayhan</strong> — a CS student in Taiwan from Indonesia, focused on <strong style={{color:T.accent}}>cybersecurity, Python automation, and full-stack development</strong>. I'm building a portfolio around safe lab practice, CTF documentation, and small tools that explain how systems work.
             </p>
             <p style={{fontFamily:"Inter,sans-serif",fontSize:"0.88rem",color:T.textMid,lineHeight:1.9,marginBottom:"1.8rem"}}>
               My current focus is web security fundamentals, Linux, networking, Python scripting, and technical writing. I use this portfolio to document what I build, what I learn, and how I think through technical problems.
@@ -551,10 +551,10 @@ const Intel=({T})=>{
 
 // ─── CONTACT ──────────────────────────────────────────────────────────────────
 const LKS=[
-  {l:"EMAIL",   v:"rafi@example.com",            h:"mailto:rafi@example.com"},
-  {l:"GITHUB",  v:"github.com/your-username",    h:"#"},
+  {l:"EMAIL",   v:"Rayhan.vinw@gmail.com",            h:"mailto:Rayhan.vinw@gmail.com"},
+  {l:"GITHUB",  v:"github.com/raylearningcode",    h:"#"},
   {l:"LINKEDIN",v:"linkedin.com/in/your-profile",h:"#"},
-  {l:"HTB",     v:"hackthebox.com/users/...",    h:"#"},
+  {l:"HTB",     v:"https://profile.hackthebox.com/profile/019e5f20-7b2b-729d-ba67-8c0085aef0e6",    h:"#"},
 ];
 const Contact=({T})=>{
   const[ref,fade]=useScrollFade();
@@ -585,7 +585,7 @@ const Contact=({T})=>{
           <div style={{background:T.surface,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"1.6rem",backdropFilter:"blur(12px)",display:"flex",flexDirection:"column",gap:"0.7rem"}}>
             <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"0.57rem",color:T.green,letterSpacing:"0.15em",marginBottom:"0.4rem"}}>// REACH_ME.sh</div>
             {[
-              {icon:"✉",label:"EMAIL",val:"rafi@example.com",href:"mailto:rafi@example.com",color:T.accent},
+              {icon:"✉",label:"EMAIL",val:"Rayhan@example.com",href:"mailto:Rayhan@example.com",color:T.accent},
               {icon:"⌥",label:"GITHUB",val:"github.com/your-username",href:"https://github.com/your-username",color:T.green},
               {icon:"◫",label:"LINKEDIN",val:"linkedin.com/in/your-profile",href:"https://linkedin.com/in/your-profile",color:"#0A66C2"},
               {icon:"⬡",label:"HACKTHEBOX",val:"hackthebox.com/profile",href:"https://app.hackthebox.com",color:"#9FEF00"},
@@ -617,10 +617,10 @@ const Contact=({T})=>{
 const Footer=({T,onCmd})=>(
   <footer style={{position:"relative",zIndex:1,textAlign:"center",padding:"2rem 1.5rem",borderTop:`1px solid ${T.border}`}}>
     <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"0.6rem",color:T.textDim}}>
-      <span style={{color:T.green}}>rafi@sec-portfolio</span>:~$ echo "Curiosity is the best 0-day."
+      <span style={{color:T.green}}>Rayhan@sec-portfolio</span>:~$ echo "Curiosity is the best 0-day."
     </div>
     <div style={{fontFamily:"'Fira Code',monospace",fontSize:"0.55rem",color:T.textDim,marginTop:"0.5rem",opacity:0.55}}>
-      © 2025 Rafi &nbsp;·&nbsp; Indonesia 🇮🇩 → Taiwan 🇹🇼 → Germany 🇩🇪
+      © 2025 Rayhan &nbsp;·&nbsp; Indonesia 🇮🇩 → Taiwan 🇹🇼 → Germany 🇩🇪
     </div>
     <button onClick={onCmd} style={{marginTop:"1rem",fontFamily:"'JetBrains Mono',monospace",fontSize:"0.52rem",letterSpacing:"0.12em",color:T.textDim,background:"transparent",border:`1px solid ${T.border}`,padding:"0.28rem 0.7rem",borderRadius:"3px",cursor:"pointer",opacity:0.6,transition:"opacity 0.15s"}}
       onMouseEnter={e=>e.currentTarget.style.opacity="1"}
