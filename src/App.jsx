@@ -276,7 +276,7 @@ const Hero=({onNav,T})=>{
 };
 
 // ─── HTB WIDGET ───────────────────────────────────────────────────────────────
-const HTB_USER="your-htb-username"; // ← set your username
+const HTB_USER="raylearningcuy"; // ← set your username
 const HTBCard=({T})=>{
   const[d,setD]=useState(null);const[demo,setDemo]=useState(false);
   useEffect(()=>{
@@ -553,8 +553,8 @@ const Intel=({T})=>{
 const LKS=[
   {l:"EMAIL",   v:"Rayhan.vinw@gmail.com",            h:"mailto:Rayhan.vinw@gmail.com"},
   {l:"GITHUB",  v:"github.com/raylearningcode",    h:"github.com/raylearningcode"},
-  {l:"LINKEDIN",v:"linkedin.com/in/your-profile",h:"#"},
-  {l:"HTB",     v:"https://app.hackthebox.com/raylearningcode",    h:"https://profile.hackthebox.com/profile/019e5f20-7b2b-729d-ba67-8c0085aef0e6"},
+  {l:"LINKEDIN",v:"linkedin.com/in/rayhan-vin",h:"https://www.linkedin.com/in/rayhan-vin/"},
+  {l:"HTB",     v:"hackthebox.com/users/raylearningcuy",    h:"https://profile.hackthebox.com/profile/019e5f20-7b2b-729d-ba67-8c0085aef0e6"},
 ];
 const Contact=({T})=>{
   const[ref,fade]=useScrollFade();
@@ -588,7 +588,7 @@ const Contact=({T})=>{
               {icon:"✉",label:"EMAIL",val:"Rayhan@example.com",href:"mailto:Rayhan@example.com",color:T.accent},
               {icon:"⌥",label:"GITHUB",val:"github.com/your-username",href:"https://github.com/your-username",color:T.green},
               {icon:"◫",label:"LINKEDIN",val:"linkedin.com/in/your-profile",href:"https://linkedin.com/in/your-profile",color:"#0A66C2"},
-              {icon:"⬡",label:"HACKTHEBOX",val:"hackthebox.com/profile",href:"https://app.hackthebox.com",color:"#9FEF00"},
+              {icon:"⬡",label:"HACKTHEBOX",val:"hackthebox.com/raylearningcuy",href:"https://app.hackthebox.com",color:"#9FEF00"},
               {icon:"↓",label:"RESUME",val:"Download PDF",href:"#",color:T.gold},
             ].map(l=>(
               <a key={l.label} href={l.href} target={l.href.startsWith("mailto")?"_self":"_blank"} rel="noreferrer"
